@@ -1,6 +1,90 @@
 {
   "lists": [
     {
+      "id": "b29ceccf-134b-4664-9474-3049cfd57634",
+      "title": "Reasons to actually get out of bed",
+      "createdAt": "2026-08-25T10:08:06.490Z",
+      "updatedAt": "2026-08-25T10:08:06.490Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "There's an appointment to meet people. Better not get late and make others wait."
+        },
+        {
+          "position": 2,
+          "text": "There's a SpaceX launch livestream. Although landing a falcon 9 has become ordinary, there's always something new to be expected in the Starship flights."
+        },
+        {
+          "position": 3,
+          "text": "There's an exciting project ongoing and I'd like to continue working on it."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "I used to get out of bed just to play some video game. Later I realized that the adventure of my own life is way more exciting than any video game.",
+          "title": "Reasons to actually get out of bed",
+          "entries": [
+            {
+              "position": 1,
+              "text": "There's an appointment to meet people. Better not get late and make others wait."
+            },
+            {
+              "position": 2,
+              "text": "There's a SpaceX launch livestream. Although landing a falcon 9 has become ordinary, there's always something new to be expected in the Starship flights."
+            },
+            {
+              "position": 3,
+              "text": "There's an exciting project ongoing and I'd like to continue working on it."
+            }
+          ],
+          "savedAt": "2026-08-25T10:08:06.490Z"
+        }
+      ]
+    },
+    {
+      "id": "830a2550-eb58-49e4-a290-8b8999deef10",
+      "title": "Unforgivable social sins",
+      "createdAt": "2026-08-25T09:53:48.626Z",
+      "updatedAt": "2026-08-25T09:53:48.626Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Leaving personal garbage at public spaces. Find a garbage bin or bring personal garbage back home."
+        },
+        {
+          "position": 2,
+          "text": "Smoking outside of the designated area near others. Feel free to smoke at home or in the designated area but please don't pollute the air non-smokers breathe."
+        },
+        {
+          "position": 3,
+          "text": "Jumping a queue. This one is solved by technology on most occasions by a queueing ticket."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "It's important to speak up when someone broke the etiquette standard. Silence would just embolden the transgressors.",
+          "title": "Unforgivable social sins",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Leaving personal garbage at public spaces. Find a garbage bin or bring personal garbage back home."
+            },
+            {
+              "position": 2,
+              "text": "Smoking outside of the designated area near others. Feel free to smoke at home or in the designated area but please don't pollute the air non-smokers breathe."
+            },
+            {
+              "position": 3,
+              "text": "Jumping a queue. This one is solved by technology on most occasions by a queueing ticket."
+            }
+          ],
+          "savedAt": "2026-08-25T09:53:48.626Z"
+        }
+      ]
+    },
+    {
       "id": "7ee1903b-06c0-49df-8fb7-40f6363024c7",
       "title": "Virtues I pretend to have in job interviews",
       "createdAt": "2026-08-25T09:02:55.822Z",
