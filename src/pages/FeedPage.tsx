@@ -4,7 +4,7 @@ import { ListCard } from '../components/ListCard'
 import { PlusIcon } from '../components/Icons'
 
 export function FeedPage() {
-  const { content, mode } = useStore()
+  const { content, canEdit } = useStore()
   const lists = [...content.lists].sort(
     (a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime(),
   )
@@ -18,7 +18,7 @@ export function FeedPage() {
             Every list is ranked — position is the point.
           </p>
         </div>
-        {mode === 'authoring' && (
+        {canEdit && (
           <span className="text-xs text-slate-400">{lists.length} published</span>
         )}
       </div>
@@ -27,11 +27,11 @@ export function FeedPage() {
         <div className="mt-10 rounded-2xl border border-dashed border-slate-300 bg-white p-10 text-center">
           <p className="font-serif text-lg font-bold text-slate-700">Nothing here yet.</p>
           <p className="mt-1 text-sm text-slate-500">
-            {mode === 'authoring'
+            {canEdit
               ? 'Create your first ranked list to get started.'
               : 'Check back soon.'}
           </p>
-          {mode === 'authoring' && (
+          {canEdit && (
             <Link
               to="/new"
               className="mt-4 inline-flex items-center gap-1.5 rounded-lg bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700"

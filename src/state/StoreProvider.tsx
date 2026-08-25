@@ -1,13 +1,22 @@
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
 import type { SiteContent, TierList } from '../domain/types'
 import {
-  clearAuthoringContent,
+  hasLocalDraft,
   loadAuthoringContent,
+  loadLastPublishedSnapshot,
   persistAuthoringContent,
+  saveLastPublishedSnapshot,
 } from '../lib/authoringStore'
 import { loadPublishedContent } from '../lib/contentSource'
-import type { AuthoringOps, StoreMode, StoreValue } from './storeContext'
+import {
+  clearStoredToken,
+  fetchContentFile,
+  getStoredToken,
+  putContentFile,
+  storeToken,
+} from '../lib/githubPublisher'
+import type { AuthStatus, AuthoringOps, StoreMode, StoreValue } from './storeContext'
 import { StoreContext } from './storeContext'
 
 function nowIso(): string {
@@ -39,10 +48,48 @@ export default function StoreProvider({ children, mode }: StoreProviderProps) {
   const [content, setContent] = useState<SiteContent>(() =>
     resolvedMode === 'authoring' ? loadAuthoringContent() : loadPublishedContent(),
   )
+  const [auth, setAuth] = useState<AuthStatus>('signed-out')
+  const [baselineJson, setBaselineJson] = useState<string | null>(() =>
+    loadLastPublishedSnapshot(),
+  )
+
+  const applyBaseline = useCallback((json: string) => {
+    saveLastPublishedSnapshot(json)
+    setBaselineJson(json)
+  }, [])
+
+  const canEdit = resolvedMode === 'authoring' || auth === 'signed-in'
+
+  // Restore an existing session on the live site: validate the stored token
+  // against the repo copy and adopt it as the publish baseline.
+  useEffect(() => {
+    if (resolvedMode !== 'published') return
+    const token = getStoredToken()
+    if (!token) return
+    let cancelled = false
+    void (async () => {
+      try {
+        const { content: repoContent } = await fetchContentFile(token)
+        if (cancelled) return
+        const repoJson = JSON.stringify(repoContent)
+        applyBaseline(repoJson)
+        setAuth('signed-in')
+        setContent((prev) => {
+          if (JSON.stringify(prev) === repoJson) return prev
+          if (hasLocalDraft()) return prev // preserve unpublished local edits
+          persistAuthoringContent(repoContent)
+          return repoContent
+        })
+      } catch {
+        if (!cancelled) clearStoredToken()
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [resolvedMode, applyBaseline])
 
   const ops = useMemo<AuthoringOps | null>(() => {
-    if (resolvedMode !== 'authoring') return null
-
     function mutate(listId: string, fn: (list: TierList) => TierList) {
       setContent((prev) => {
         const next: SiteContent = {
@@ -108,17 +155,107 @@ export default function StoreProvider({ children, mode }: StoreProviderProps) {
       },
 
       resetToPublished() {
-        clearAuthoringContent()
-        setContent(loadPublishedContent())
+        clearStoredToken()
+        const published = loadPublishedContent()
+        persistAuthoringContent(published)
+        setAuth('signed-out')
+        setContent(published)
       },
     }
-  }, [resolvedMode])
+  }, [])
+
+  const signIn = useCallback(
+    async (rawToken: string, remember: boolean) => {
+      const token = rawToken.trim()
+      if (!token) throw new Error('Paste a token first.')
+      const { content: repoContent } = await fetchContentFile(token)
+      const repoJson = JSON.stringify(repoContent)
+
+      if (hasLocalDraft()) {
+        const localJson = JSON.stringify(loadAuthoringContent())
+        if (localJson !== repoJson) {
+          const discard = window.confirm(
+            'This browser holds unpublished local changes that differ from the version on GitHub.\n\n' +
+              'OK — discard them and load the published version.\n' +
+              'Cancel — keep them and abort sign-in.',
+          )
+          if (!discard) throw new Error('cancelled')
+        }
+      }
+
+      storeToken(token, remember)
+      persistAuthoringContent(repoContent)
+      applyBaseline(repoJson)
+      setContent(repoContent)
+      setAuth('signed-in')
+    },
+    [applyBaseline],
+  )
+
+  const signOut = useCallback(() => {
+    clearStoredToken()
+    setAuth('signed-out')
+    setContent(loadPublishedContent())
+  }, [])
+
+  const publish = useCallback(
+    async (message?: string) => {
+      const token = getStoredToken()
+      if (!token) throw new Error('Sign in first.')
+      const jsonText = JSON.stringify(content, null, 2)
+      const { sha } = await fetchContentFile(token)
+      const result = await putContentFile(token, jsonText, message?.trim() || 'Publish list updates', sha)
+      applyBaseline(JSON.stringify(content))
+      return result.commitUrl
+    },
+    [content, applyBaseline],
+  )
+
+  const reloadFromRepo = useCallback(async () => {
+    const token = getStoredToken()
+    if (!token) throw new Error('Sign in first.')
+    const { content: repoContent } = await fetchContentFile(token)
+    persistAuthoringContent(repoContent)
+    applyBaseline(JSON.stringify(repoContent))
+    setContent(repoContent)
+  }, [applyBaseline])
 
   const exportJson = useCallback(() => JSON.stringify(content, null, 2), [content])
 
+  const publishDirty =
+    resolvedMode === 'published' && auth === 'signed-in'
+      ? baselineJson === null
+        ? null
+        : JSON.stringify(content) !== baselineJson
+      : null
+
   const value = useMemo<StoreValue>(
-    () => ({ mode: resolvedMode, content, exportJson, ops }),
-    [resolvedMode, content, exportJson, ops],
+    () => ({
+      mode: resolvedMode,
+      canEdit,
+      auth,
+      publishDirty,
+      content,
+      exportJson,
+      ops,
+      signIn,
+      signOut,
+      publish,
+      reloadFromRepo,
+    }),
+    [
+      resolvedMode,
+      canEdit,
+      auth,
+      publishDirty,
+      content,
+      exportJson,
+      ops,
+      signIn,
+      signOut,
+      publish,
+      reloadFromRepo,
+    ],
   )
 
   return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>

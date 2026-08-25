@@ -14,7 +14,7 @@ function newUid(): string {
 }
 
 export function NewListPage() {
-  const { mode, ops } = useStore()
+  const { canEdit, ops } = useStore()
   const navigate = useNavigate()
 
   const [title, setTitle] = useState('')
@@ -33,7 +33,7 @@ export function NewListPage() {
     [title, rows, note],
   )
 
-  if (mode !== 'authoring' || !ops) return <Navigate to="/" replace />
+  if (!canEdit || !ops) return <Navigate to="/" replace />
 
   function updateRow(uid: string, text: string) {
     setRows((prev) => prev.map((r) => (r.uid === uid ? { ...r, text } : r)))

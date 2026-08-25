@@ -5,6 +5,7 @@ import { ListPage } from './pages/ListPage'
 import { HistoryPage } from './pages/HistoryPage'
 import { NewListPage } from './pages/NewListPage'
 import { NotFoundPage } from './pages/NotFoundPage'
+import { AuthoringSignInPage } from './pages/AuthoringSignInPage'
 
 const router = createBrowserRouter(
   [
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
         { path: '/lists/:id', element: <ListPage /> },
         { path: '/lists/:id/history', element: <HistoryPage /> },
         { path: '/new', element: <NewListPage /> },
+        { path: '/authoring', element: <AuthoringSignInPage /> },
         { path: '/404', element: <NotFoundPage /> },
         { path: '*', element: <Navigate to="/404" replace /> },
       ],

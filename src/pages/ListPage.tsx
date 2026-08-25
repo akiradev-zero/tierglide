@@ -9,11 +9,10 @@ import { formatDateTime } from '../lib/time'
 export function ListPage() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const { content, mode } = useStore()
+  const { content, canEdit } = useStore()
   const [editing, setEditing] = useState(false)
 
   const list = content.lists.find((l) => l.id === id)
-  const authoring = mode === 'authoring'
 
   if (!list) {
     return (
@@ -29,7 +28,7 @@ export function ListPage() {
     )
   }
 
-  if (authoring && editing) {
+  if (canEdit && editing) {
     return (
       <div>
         <button
@@ -81,7 +80,7 @@ export function ListPage() {
             </Link>
           </p>
         </div>
-        {authoring && (
+        {canEdit && (
           <button
             type="button"
             onClick={() => setEditing(true)}
