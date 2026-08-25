@@ -1,6 +1,90 @@
 {
   "lists": [
     {
+      "id": "1d0ade70-03fc-4081-b137-fd8f1c2f0b2f",
+      "title": "Things I refuse to pay full price for",
+      "createdAt": "2026-08-25T08:32:54.317Z",
+      "updatedAt": "2026-08-25T08:32:54.317Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Digital artifacts like NFTs. A total scam."
+        },
+        {
+          "position": 2,
+          "text": "Certain conceptual artwork like Comedian, the duct-taped banana. A bundle of fresh bananas from a supermarket taste just the same."
+        },
+        {
+          "position": 3,
+          "text": "Various jewelries. They all look the same to me. Pick the cheapest if necessary."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "The consumer market is full of ridiculously priced products. If I have to choose, I prefer practicality to symbolism.",
+          "title": "Things I refuse to pay full price for",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Digital artifacts like NFTs. A total scam."
+            },
+            {
+              "position": 2,
+              "text": "Certain conceptual artwork like Comedian, the duct-taped banana. A bundle of fresh bananas from a supermarket taste just the same."
+            },
+            {
+              "position": 3,
+              "text": "Various jewelries. They all look the same to me. Pick the cheapest if necessary."
+            }
+          ],
+          "savedAt": "2026-08-25T08:32:54.317Z"
+        }
+      ]
+    },
+    {
+      "id": "fc45246d-8b9a-4de9-bc48-f5d59346acd9",
+      "title": "Hills I'm 100% ready to die on",
+      "createdAt": "2026-08-25T08:01:51.928Z",
+      "updatedAt": "2026-08-25T08:01:51.928Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Jesus claimed to be God, was crucified on the cross, defeated death and proved that he is God by resurrecting on the third day. I surrender myself to Jesus Christ my Lord and aspire to glorify our heavenly Father with the help of the Holy Spirit."
+        },
+        {
+          "position": 2,
+          "text": "The most urgent problem humanity needs to solve collectively from now on, is the declining birthrate as societies develop. The society that doesn't revert this trend among its own population will either cease to exist or be replaced by population from other societies."
+        },
+        {
+          "position": 3,
+          "text": "Apart from getting married and having children, my way of glorifying God is to become the godly man that inspires others to turn to Jesus Christ and bring the kingdom of heaven to earth together."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "These are not irrational convictions, but conclusions of mine after much contemplation and many trials and errors.",
+          "title": "Hills I'm 100% ready to die on",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Jesus claimed to be God, was crucified on the cross, defeated death and proved that he is God by resurrecting on the third day. I surrender myself to Jesus Christ my Lord and aspire to glorify our heavenly Father with the help of the Holy Spirit."
+            },
+            {
+              "position": 2,
+              "text": "The most urgent problem humanity needs to solve collectively from now on, is the declining birthrate as societies develop. The society that doesn't revert this trend among its own population will either cease to exist or be replaced by population from other societies."
+            },
+            {
+              "position": 3,
+              "text": "Apart from getting married and having children, my way of glorifying God is to become the godly man that inspires others to turn to Jesus Christ and bring the kingdom of heaven to earth together."
+            }
+          ],
+          "savedAt": "2026-08-25T08:01:51.928Z"
+        }
+      ]
+    },
+    {
       "id": "b301d5eb-69c7-47fd-86aa-a159fdffa3c3",
       "title": "Situations where I would ignore a phone call",
       "createdAt": "2026-08-25T06:46:32.223Z",
