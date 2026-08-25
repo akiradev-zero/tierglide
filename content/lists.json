@@ -1,6 +1,48 @@
 {
   "lists": [
     {
+      "id": "a2e2885a-955d-4252-a851-8f5eaa3e7764",
+      "title": "Things money can actually buy",
+      "createdAt": "2026-08-25T11:20:23.950Z",
+      "updatedAt": "2026-08-25T11:20:23.950Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "A gift to someone I love. If the gift makes that someone happy, it does indeed bring me happiness as well. So, in this sense, money can buy happiness."
+        },
+        {
+          "position": 2,
+          "text": "A ticket to a social event to meet people. It doesn't guarantee any meaningful relationship, but it does provide the opportunity."
+        },
+        {
+          "position": 3,
+          "text": "Books, lots of books. Although anything can be found on the Internet, books are still better at providing well-structured and reliable information."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "There are many things money can buy but not so important, such as luxurious accessories and fancy new gadgets. These things are not important when they are only serving the buyer's material desire. They only become useful when they bring people together.",
+          "title": "Things money can actually buy",
+          "entries": [
+            {
+              "position": 1,
+              "text": "A gift to someone I love. If the gift makes that someone happy, it does indeed bring me happiness as well. So, in this sense, money can buy happiness."
+            },
+            {
+              "position": 2,
+              "text": "A ticket to a social event to meet people. It doesn't guarantee any meaningful relationship, but it does provide the opportunity."
+            },
+            {
+              "position": 3,
+              "text": "Books, lots of books. Although anything can be found on the Internet, books are still better at providing well-structured and reliable information."
+            }
+          ],
+          "savedAt": "2026-08-25T11:20:23.950Z"
+        }
+      ]
+    },
+    {
       "id": "b29ceccf-134b-4664-9474-3049cfd57634",
       "title": "Reasons to actually get out of bed",
       "createdAt": "2026-08-25T10:08:06.490Z",
