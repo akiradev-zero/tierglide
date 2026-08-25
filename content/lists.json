@@ -1,103 +1,94 @@
 {
   "lists": [
     {
-      "id": "seed-films-ambition",
-      "title": "Best films about ambition, ranked",
-      "createdAt": "2026-07-02T09:15:00.000Z",
-      "updatedAt": "2026-08-18T19:40:00.000Z",
+      "id": "6861e0d6-d5d1-4188-a0c3-294a1acee882",
+      "title": "Minor inconveniences that ruin my entire week",
+      "createdAt": "2026-08-25T06:04:35.340Z",
+      "updatedAt": "2026-08-25T06:04:35.340Z",
       "entries": [
-        { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
-        { "position": 2, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
-        { "position": 3, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
-        { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." },
-        { "position": 5, "text": "Gattaca — ambition against biology itself, won on sheer refusal." }
+        {
+          "position": 1,
+          "text": "One strand of stubborn facial hair that survived shaving. Once I notice it on my skin, I have to pull it out before I could focus on anything else."
+        },
+        {
+          "position": 2,
+          "text": "A tiny scratch on a brand-new gadget I just bought. Especially if it's due to my own carelessness."
+        },
+        {
+          "position": 3,
+          "text": "Forgot to complete a task squeezed into an errand as a bonus to-do item. What a wasted opportunity to be efficient!"
+        },
+        {
+          "position": 4,
+          "text": "An action or a remark of mine that didn't matter much at the time but was embarrassing in retrospect."
+        }
       ],
       "versions": [
         {
           "number": 1,
-          "message": "Finally wrote down the canon after years of arguing about it.",
-          "title": "Best films about ambition, ranked",
+          "message": "No minor inconvenience really bothers me for as long as a week. But there are many regrets that I couldn't let go completely. That's for another list.",
+          "title": "Minor inconveniences that ruin my entire week",
           "entries": [
-            { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
-            { "position": 2, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
-            { "position": 3, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
-            { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." }
+            {
+              "position": 1,
+              "text": "One strand of stubborn facial hair that survived shaving. Once I notice it on my skin, I have to pull it out before I could focus on anything else."
+            },
+            {
+              "position": 2,
+              "text": "A tiny scratch on a brand-new gadget I just bought. Especially if it's due to my own carelessness."
+            },
+            {
+              "position": 3,
+              "text": "Forgot to complete a task squeezed into an errand as a bonus to-do item. What a wasted opportunity to be efficient!"
+            },
+            {
+              "position": 4,
+              "text": "An action or a remark of mine that didn't matter much at the time but was embarrassing in retrospect."
+            }
           ],
-          "savedAt": "2026-07-02T09:15:00.000Z"
-        },
-        {
-          "number": 2,
-          "message": "Rewatched Whiplash. It was never fourth place — Fletcher lives in my head rent-free.",
-          "title": "Best films about ambition, ranked",
-          "entries": [
-            { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
-            { "position": 2, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
-            { "position": 3, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
-            { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." }
-          ],
-          "savedAt": "2026-07-19T21:05:00.000Z"
-        },
-        {
-          "number": 3,
-          "message": "Added Gattaca — a glaring omission; it is the purest ambition story I know.",
-          "title": "Best films about ambition, ranked",
-          "entries": [
-            { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
-            { "position": 2, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
-            { "position": 3, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
-            { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." },
-            { "position": 5, "text": "Gattaca — ambition against biology itself, won on sheer refusal." }
-          ],
-          "savedAt": "2026-08-18T19:40:00.000Z"
+          "savedAt": "2026-08-25T06:04:35.340Z"
         }
       ]
     },
     {
-      "id": "seed-morning-rituals",
-      "title": "Morning rituals that actually survived contact with reality",
-      "createdAt": "2026-06-11T07:30:00.000Z",
-      "updatedAt": "2026-08-22T07:55:00.000Z",
+      "id": "7092c267-1452-46dc-98ec-4c4cf6dd55ed",
+      "title": "Things I would save first in a house fire",
+      "createdAt": "2026-08-25T05:35:11.409Z",
+      "updatedAt": "2026-08-25T05:35:11.409Z",
       "entries": [
-        { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
-        { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
-        { "position": 3, "text": "A short walk around the block while the street is still empty." },
-        { "position": 4, "text": "Writing three sentences about the day ahead; more than three becomes homework." }
+        {
+          "position": 1,
+          "text": "My order-made suits. If I'm going to be homeless, I'd prefer to be the sharpest looking of them all."
+        },
+        {
+          "position": 2,
+          "text": "My snowboarding gears. If it's already winter, I would be shredding on the slopes and not staying at home anyways."
+        },
+        {
+          "position": 3,
+          "text": "My laptop. It's all I need to start over, and I usually bring it with me anywhere I go."
+        }
       ],
       "versions": [
         {
           "number": 1,
-          "message": "Recording the ritual so I stop pretending I will remember it.",
-          "title": "Morning rituals",
+          "message": "There is nothing in my house that holds sentimental value to me. Except for the obvious items such as legal documents and cash, there's nothing I would really rush to save in a house fire.",
+          "title": "Things I would save first in a house fire",
           "entries": [
-            { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
-            { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
-            { "position": 3, "text": "Writing three sentences about the day ahead." }
+            {
+              "position": 1,
+              "text": "My order-made suits. If I'm going to be homeless, I'd prefer to be the sharpest looking of them all."
+            },
+            {
+              "position": 2,
+              "text": "My snowboarding gears. If it's already winter, I would be shredding on the slopes and not staying at home anyways."
+            },
+            {
+              "position": 3,
+              "text": "My laptop. It's all I need to start over, and I usually bring it with me anywhere I go."
+            }
           ],
-          "savedAt": "2026-06-11T07:30:00.000Z"
-        },
-        {
-          "number": 2,
-          "message": "Added the morning walk after two weeks of actually doing it — for now it goes last; also gave the list an honest title.",
-          "title": "Morning rituals that actually survived contact with reality",
-          "entries": [
-            { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
-            { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
-            { "position": 3, "text": "Writing three sentences about the day ahead." },
-            { "position": 4, "text": "A short walk around the block while the street is still empty." }
-          ],
-          "savedAt": "2026-07-01T08:10:00.000Z"
-        },
-        {
-          "number": 3,
-          "message": "Two weeks of evidence later: promoted walking above journaling and tightened its wording — clarity comes from movement.",
-          "title": "Morning rituals that actually survived contact with reality",
-          "entries": [
-            { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
-            { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
-            { "position": 3, "text": "A short walk around the block while the street is still empty." },
-            { "position": 4, "text": "Writing three sentences about the day ahead; more than three becomes homework." }
-          ],
-          "savedAt": "2026-08-22T07:55:00.000Z"
+          "savedAt": "2026-08-25T05:35:11.410Z"
         }
       ]
     }
