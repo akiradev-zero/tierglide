@@ -1,0 +1,105 @@
+{
+  "lists": [
+    {
+      "id": "seed-films-ambition",
+      "title": "Best films about ambition, ranked",
+      "createdAt": "2026-07-02T09:15:00.000Z",
+      "updatedAt": "2026-08-18T19:40:00.000Z",
+      "entries": [
+        { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
+        { "position": 2, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
+        { "position": 3, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
+        { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." },
+        { "position": 5, "text": "Gattaca — ambition against biology itself, won on sheer refusal." }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "Finally wrote down the canon after years of arguing about it.",
+          "title": "Best films about ambition, ranked",
+          "entries": [
+            { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
+            { "position": 2, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
+            { "position": 3, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
+            { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." }
+          ],
+          "savedAt": "2026-07-02T09:15:00.000Z"
+        },
+        {
+          "number": 2,
+          "message": "Rewatched Whiplash. It was never fourth place — Fletcher lives in my head rent-free.",
+          "title": "Best films about ambition, ranked",
+          "entries": [
+            { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
+            { "position": 2, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
+            { "position": 3, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
+            { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." }
+          ],
+          "savedAt": "2026-07-19T21:05:00.000Z"
+        },
+        {
+          "number": 3,
+          "message": "Added Gattaca — a glaring omission; it is the purest ambition story I know.",
+          "title": "Best films about ambition, ranked",
+          "entries": [
+            { "position": 1, "text": "There Will Be Blood — ambition as oil: it blackens everything it touches." },
+            { "position": 2, "text": "Whiplash — the conservatory as coliseum; greatness demanded at drumstick-point." },
+            { "position": 3, "text": "The Social Network — empire-building one dorm-room betrayal at a time." },
+            { "position": 4, "text": "Nightcrawler — a man who treats the city as a market and himself as product." },
+            { "position": 5, "text": "Gattaca — ambition against biology itself, won on sheer refusal." }
+          ],
+          "savedAt": "2026-08-18T19:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "seed-morning-rituals",
+      "title": "Morning rituals that actually survived contact with reality",
+      "createdAt": "2026-06-11T07:30:00.000Z",
+      "updatedAt": "2026-08-22T07:55:00.000Z",
+      "entries": [
+        { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
+        { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
+        { "position": 3, "text": "A short walk around the block while the street is still empty." },
+        { "position": 4, "text": "Writing three sentences about the day ahead; more than three becomes homework." }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "Recording the ritual so I stop pretending I will remember it.",
+          "title": "Morning rituals",
+          "entries": [
+            { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
+            { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
+            { "position": 3, "text": "Writing three sentences about the day ahead." }
+          ],
+          "savedAt": "2026-06-11T07:30:00.000Z"
+        },
+        {
+          "number": 2,
+          "message": "Added the morning walk after two weeks of actually doing it — for now it goes last; also gave the list an honest title.",
+          "title": "Morning rituals that actually survived contact with reality",
+          "entries": [
+            { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
+            { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
+            { "position": 3, "text": "Writing three sentences about the day ahead." },
+            { "position": 4, "text": "A short walk around the block while the street is still empty." }
+          ],
+          "savedAt": "2026-07-01T08:10:00.000Z"
+        },
+        {
+          "number": 3,
+          "message": "Two weeks of evidence later: promoted walking above journaling and tightened its wording — clarity comes from movement.",
+          "title": "Morning rituals that actually survived contact with reality",
+          "entries": [
+            { "position": 1, "text": "Coffee brewed slowly, drunk before any screen wakes up." },
+            { "position": 2, "text": "Twenty minutes of reading something long — no feeds allowed at this hour." },
+            { "position": 3, "text": "A short walk around the block while the street is still empty." },
+            { "position": 4, "text": "Writing three sentences about the day ahead; more than three becomes homework." }
+          ],
+          "savedAt": "2026-08-22T07:55:00.000Z"
+        }
+      ]
+    }
+  ]
+}
