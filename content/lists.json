@@ -1,6 +1,90 @@
 {
   "lists": [
     {
+      "id": "b301d5eb-69c7-47fd-86aa-a159fdffa3c3",
+      "title": "Situations where I would ignore a phone call",
+      "createdAt": "2026-08-25T06:46:32.223Z",
+      "updatedAt": "2026-08-25T06:46:32.223Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "In the middle of a conversation with my family/friends, I will not look at the phone."
+        },
+        {
+          "position": 2,
+          "text": "When I am at a live performance or a church service, I will not take out the phone."
+        },
+        {
+          "position": 3,
+          "text": "When I am playing any sports, I usually put my phone away."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "Who still makes random phone calls nowadays? I keep the notifications on my phone at the minimum level. Except for direct messages, notifications of other apps are all silenced. I choose when to check them instead.",
+          "title": "Situations where I would ignore a phone call",
+          "entries": [
+            {
+              "position": 1,
+              "text": "In the middle of a conversation with my family/friends, I will not look at the phone."
+            },
+            {
+              "position": 2,
+              "text": "When I am at a live performance or a church service, I will not take out the phone."
+            },
+            {
+              "position": 3,
+              "text": "When I am playing any sports, I usually put my phone away."
+            }
+          ],
+          "savedAt": "2026-08-25T06:46:32.223Z"
+        }
+      ]
+    },
+    {
+      "id": "179ad6a5-a4dd-4d56-bec6-a4beb88ee628",
+      "title": "Food I would eat off the floor",
+      "createdAt": "2026-08-25T06:33:18.984Z",
+      "updatedAt": "2026-08-25T06:33:18.984Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "BBQ lamb skewer with cumin and spice. It is never super hygiene to begin with, but the taste is worth all the risks."
+        },
+        {
+          "position": 2,
+          "text": "Sizzling Sisig. This Filipino dish looks messy, but the taste is addictive."
+        },
+        {
+          "position": 3,
+          "text": "Beef stake. I don't care how it's cooked. I'm not gonna leave it on the floor."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "Usually if I drop any food on the floor, I just pretend that my floor is quite clean, so I will pick up the food and eat it.",
+          "title": "Food I would eat off the floor",
+          "entries": [
+            {
+              "position": 1,
+              "text": "BBQ lamb skewer with cumin and spice. It is never super hygiene to begin with, but the taste is worth all the risks."
+            },
+            {
+              "position": 2,
+              "text": "Sizzling Sisig. This Filipino dish looks messy, but the taste is addictive."
+            },
+            {
+              "position": 3,
+              "text": "Beef stake. I don't care how it's cooked. I'm not gonna leave it on the floor."
+            }
+          ],
+          "savedAt": "2026-08-25T06:33:18.984Z"
+        }
+      ]
+    },
+    {
       "id": "6861e0d6-d5d1-4188-a0c3-294a1acee882",
       "title": "Minor inconveniences that ruin my entire week",
       "createdAt": "2026-08-25T06:04:35.340Z",
