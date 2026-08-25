@@ -1,6 +1,90 @@
 {
   "lists": [
     {
+      "id": "7ee1903b-06c0-49df-8fb7-40f6363024c7",
+      "title": "Virtues I pretend to have in job interviews",
+      "createdAt": "2026-08-25T09:02:55.822Z",
+      "updatedAt": "2026-08-25T09:02:55.822Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Passionate and energetic. This is when I realize that the job is not as attractive as I imagined it to be before the interview."
+        },
+        {
+          "position": 2,
+          "text": "Positive. When asked about the reason to leave the previous company, I had to remind myself that it would not look good if I kept complaining about my previous job."
+        },
+        {
+          "position": 3,
+          "text": "Ambitious. I would probably have already changed jobs multiple times had I been always ambitious."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "When it comes to job interviews, if I only picked what I find truly attractive, I would not have to pretend to have the first two virtues. As for ambitiousness, I genuinely lack it most of the time.",
+          "title": "Virtues I pretend to have in job interviews",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Passionate and energetic. This is when I realize that the job is not as attractive as I imagined it to be before the interview."
+            },
+            {
+              "position": 2,
+              "text": "Positive. When asked about the reason to leave the previous company, I had to remind myself that it would not look good if I kept complaining about my previous job."
+            },
+            {
+              "position": 3,
+              "text": "Ambitious. I would probably have already changed jobs multiple times had I been always ambitious."
+            }
+          ],
+          "savedAt": "2026-08-25T09:02:55.822Z"
+        }
+      ]
+    },
+    {
+      "id": "e88ddf41-2157-4921-97f7-f3dfbffae4d2",
+      "title": "Non-negotiable daily rituals",
+      "createdAt": "2026-08-25T08:45:48.809Z",
+      "updatedAt": "2026-08-25T08:45:48.809Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "A prayer after getting up. It fills me with gratitude toward God and gives me an everlasting purpose of my life."
+        },
+        {
+          "position": 2,
+          "text": "A short walk under the sky. It reminds me of the beauty of nature and the unknown mystery of the universe."
+        },
+        {
+          "position": 3,
+          "text": "Journaling at the end of the day. Even if it's just a bland record of what happened, it helps me conclude the day and get ready to sleep."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "I aspire to keep these rituals but sometime still fall short of completing all of them.",
+          "title": "Non-negotiable daily rituals",
+          "entries": [
+            {
+              "position": 1,
+              "text": "A prayer after getting up. It fills me with gratitude toward God and gives me an everlasting purpose of my life."
+            },
+            {
+              "position": 2,
+              "text": "A short walk under the sky. It reminds me of the beauty of nature and the unknown mystery of the universe."
+            },
+            {
+              "position": 3,
+              "text": "Journaling at the end of the day. Even if it's just a bland record of what happened, it helps me conclude the day and get ready to sleep."
+            }
+          ],
+          "savedAt": "2026-08-25T08:45:48.809Z"
+        }
+      ]
+    },
+    {
       "id": "1d0ade70-03fc-4081-b137-fd8f1c2f0b2f",
       "title": "Things I refuse to pay full price for",
       "createdAt": "2026-08-25T08:32:54.317Z",
