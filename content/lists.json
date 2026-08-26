@@ -1,6 +1,132 @@
 {
   "lists": [
     {
+      "id": "29122aca-2f90-4ddc-b21a-40c435a62397",
+      "title": "Rules for my ideal utopia",
+      "createdAt": "2026-08-26T09:43:47.054Z",
+      "updatedAt": "2026-08-26T09:43:47.054Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "One vote per family of at least three people (husband, wife, and at least one child). Political decisions are made with the interest of a family at the highest level."
+        },
+        {
+          "position": 2,
+          "text": "Emotional expressions must be given in person directly. Internet is used for information only."
+        },
+        {
+          "position": 3,
+          "text": "History is a mandatory subject in all schools. Adulthood is only granted after passing a knowledge test of both world history and national history."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "With the advance of artificial intelligence, the possibility of my ideal utopia is becoming smaller and smaller.",
+          "title": "Rules for my ideal utopia",
+          "entries": [
+            {
+              "position": 1,
+              "text": "One vote per family of at least three people (husband, wife, and at least one child). Political decisions are made with the interest of a family at the highest level."
+            },
+            {
+              "position": 2,
+              "text": "Emotional expressions must be given in person directly. Internet is used for information only."
+            },
+            {
+              "position": 3,
+              "text": "History is a mandatory subject in all schools. Adulthood is only granted after passing a knowledge test of both world history and national history."
+            }
+          ],
+          "savedAt": "2026-08-26T09:43:47.055Z"
+        }
+      ]
+    },
+    {
+      "id": "d42e0a9d-84f3-432d-91b7-6a51dc95c4ca",
+      "title": "Compliments that would make me cry",
+      "createdAt": "2026-08-26T09:27:22.248Z",
+      "updatedAt": "2026-08-26T09:27:22.248Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "You have changed my life for the better. This is the compliments I saw a lot in the comment section of Jordan B. Peterson's YouTube videos."
+        },
+        {
+          "position": 2,
+          "text": "You are my inspiration. This is the compliments many people have given to Elon Musk."
+        },
+        {
+          "position": 3,
+          "text": "I am proud of you. I wish one day I could hear this compliment from my parents, my friends, my wife, my children, and everyone close to me."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "It seems I could use some practice to give compliments in an authentic manner.",
+          "title": "Compliments that would make me cry",
+          "entries": [
+            {
+              "position": 1,
+              "text": "You have changed my life for the better. This is the compliments I saw a lot in the comment section of Jordan B. Peterson's YouTube videos."
+            },
+            {
+              "position": 2,
+              "text": "You are my inspiration. This is the compliments many people have given to Elon Musk."
+            },
+            {
+              "position": 3,
+              "text": "I am proud of you. I wish one day I could hear this compliment from my parents, my friends, my wife, my children, and everyone close to me."
+            }
+          ],
+          "savedAt": "2026-08-26T09:27:22.248Z"
+        }
+      ]
+    },
+    {
+      "id": "a1cfbea9-75ea-4b2f-ac20-02a26f7305b5",
+      "title": "Principles I hope my future self keeps",
+      "createdAt": "2026-08-26T09:15:34.534Z",
+      "updatedAt": "2026-08-26T09:15:34.534Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Say the truth no matter what. Speak up when my conscience demands it, regardless of the consequence."
+        },
+        {
+          "position": 2,
+          "text": "Fully commit to the choice after the decision is made. No half-hearted efforts. No quitting before all-in."
+        },
+        {
+          "position": 3,
+          "text": "Observe to the highest resolution possible. Complete attention to the details in every investigation."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "I haven't been consistent with all these principles so far, but they are what I aspire to uphold.",
+          "title": "Principles I hope my future self keeps",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Say the truth no matter what. Speak up when my conscience demands it, regardless of the consequence."
+            },
+            {
+              "position": 2,
+              "text": "Fully commit to the choice after the decision is made. No half-hearted efforts. No quitting before all-in."
+            },
+            {
+              "position": 3,
+              "text": "Observe to the highest resolution possible. Complete attention to the details in every investigation."
+            }
+          ],
+          "savedAt": "2026-08-26T09:15:34.535Z"
+        }
+      ]
+    },
+    {
       "id": "a46b63d3-3d03-455e-a421-04319326035e",
       "title": "Activities that cure my social burnout",
       "createdAt": "2026-08-26T08:56:49.281Z",
