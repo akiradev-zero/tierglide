@@ -1,6 +1,98 @@
 {
   "lists": [
     {
+      "id": "69248723-a60b-46f7-a103-6ac4b7409efa",
+      "title": "Red flags I notice before a second hello",
+      "createdAt": "2026-08-26T08:17:43.193Z",
+      "updatedAt": "2026-08-26T08:17:43.193Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Emotional manipulation. Remarks or actions that are deliberately designed to cause a strong emotional response."
+        },
+        {
+          "position": 2,
+          "text": "Egotism. The way one talks and acts as if everyone around them owes them something."
+        },
+        {
+          "position": 3,
+          "text": "Virtue signaling. They way one brandishes a badge of moral superiority in front of others to stand out."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "I usually just remove myself from the presence of people with these red flags.",
+          "title": "Red flags I notice before a second hello",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Emotional manipulation. Remarks or actions that are deliberately designed to cause a strong emotional response."
+            },
+            {
+              "position": 2,
+              "text": "Egotism. The way one talks and acts as if everyone around them owes them something."
+            },
+            {
+              "position": 3,
+              "text": "Virtue signaling. They way one brandishes a badge of moral superiority in front of others to stand out."
+            }
+          ],
+          "savedAt": "2026-08-26T08:17:43.193Z"
+        }
+      ]
+    },
+    {
+      "id": "e14b9a3c-10cc-4515-80ba-c1ce7f19e309",
+      "title": "Traits that instantly make me trust a stranger",
+      "createdAt": "2026-08-26T07:56:16.459Z",
+      "updatedAt": "2026-08-26T07:56:16.459Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Self-deprecating humor. The ability to not take oneself seriously is a sign of emotional stability and intellectual honesty."
+        },
+        {
+          "position": 2,
+          "text": "Candid. Who are straightforward with answers and who talk with little self-censoring are easy to interact with."
+        },
+        {
+          "position": 3,
+          "text": "Curious. People who display their curiosity make it easy to have genuine and authentic conversations."
+        },
+        {
+          "position": 4,
+          "text": "Considerate. Well-socialized people usually show concerns for others' rights and feelings."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "I believe everyone has an authenticity detector. The key to gain trust is to talk and behave in an authentic way without any intent to manipulate or deceive.",
+          "title": "Traits that instantly make me trust a stranger",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Self-deprecating humor. The ability to not take oneself seriously is a sign of emotional stability and intellectual honesty."
+            },
+            {
+              "position": 2,
+              "text": "Candid. Who are straightforward with answers and who talk with little self-censoring are easy to interact with."
+            },
+            {
+              "position": 3,
+              "text": "Curious. People who display their curiosity make it easy to have genuine and authentic conversations."
+            },
+            {
+              "position": 4,
+              "text": "Considerate. Well-socialized people usually show concerns for others' rights and feelings."
+            }
+          ],
+          "savedAt": "2026-08-26T07:56:16.479Z"
+        }
+      ]
+    },
+    {
       "id": "a2e2885a-955d-4252-a851-8f5eaa3e7764",
       "title": "Things money can actually buy",
       "createdAt": "2026-08-25T11:20:23.950Z",
