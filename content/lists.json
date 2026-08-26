@@ -1,6 +1,90 @@
 {
   "lists": [
     {
+      "id": "a46b63d3-3d03-455e-a421-04319326035e",
+      "title": "Activities that cure my social burnout",
+      "createdAt": "2026-08-26T08:56:49.281Z",
+      "updatedAt": "2026-08-26T08:56:49.281Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Any sports. Snowboarding, squash, pickleball, swimming, running, bouldering, diving, and any other cardio exercises."
+        },
+        {
+          "position": 2,
+          "text": "Music. Listening to music or singing at a karaoke or inside my car would help."
+        },
+        {
+          "position": 3,
+          "text": "Books. Novel, biology, self-help, philosophy, psychology, and history. Reading books helps."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "I actually haven't experienced a social burnout yet. I'm temperamentally leaning toward extroversion.",
+          "title": "Activities that cure my social burnout",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Any sports. Snowboarding, squash, pickleball, swimming, running, bouldering, diving, and any other cardio exercises."
+            },
+            {
+              "position": 2,
+              "text": "Music. Listening to music or singing at a karaoke or inside my car would help."
+            },
+            {
+              "position": 3,
+              "text": "Books. Novel, biology, self-help, philosophy, psychology, and history. Reading books helps."
+            }
+          ],
+          "savedAt": "2026-08-26T08:56:49.281Z"
+        }
+      ]
+    },
+    {
+      "id": "c8c64e06-acf2-4b8d-b356-4f046e6d31ee",
+      "title": "Things I need in a friend vs. a co-worker",
+      "createdAt": "2026-08-26T08:44:02.929Z",
+      "updatedAt": "2026-08-26T08:44:02.929Z",
+      "entries": [
+        {
+          "position": 1,
+          "text": "Tell me when I fall short of their expectations. I need this from both my friends and co-workers."
+        },
+        {
+          "position": 2,
+          "text": "Listen to my complains, struggles, stupid ideas, and cheer for my successes. I need this from my friends only."
+        },
+        {
+          "position": 3,
+          "text": "Support me in any form when I'm in serious problem that I couldn't overcome myself. Just in friends."
+        }
+      ],
+      "versions": [
+        {
+          "number": 1,
+          "message": "Many of my co-workers did become my friends.",
+          "title": "Things I need in a friend vs. a co-worker",
+          "entries": [
+            {
+              "position": 1,
+              "text": "Tell me when I fall short of their expectations. I need this from both my friends and co-workers."
+            },
+            {
+              "position": 2,
+              "text": "Listen to my complains, struggles, stupid ideas, and cheer for my successes. I need this from my friends only."
+            },
+            {
+              "position": 3,
+              "text": "Support me in any form when I'm in serious problem that I couldn't overcome myself. Just in friends."
+            }
+          ],
+          "savedAt": "2026-08-26T08:44:02.929Z"
+        }
+      ]
+    },
+    {
       "id": "69248723-a60b-46f7-a103-6ac4b7409efa",
       "title": "Red flags I notice before a second hello",
       "createdAt": "2026-08-26T08:17:43.193Z",
